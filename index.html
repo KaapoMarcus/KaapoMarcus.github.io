@@ -365,7 +365,119 @@
       
         
           
-            
+            <ul>
+<li><p>###标题</p>
+<pre><code># 一级标题  
+## 二级标题  
+### 三级标题  
+#### 四级标题  
+##### 五级标题  
+</code></pre><p><em>效果是：</em></p>
+<blockquote>
+<p>#一级标题</p>
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5></blockquote>
+</li>
+<li><p>###强调</p>
+<pre><code>*斜体*
+**粗体**
+***粗斜体***  
+</code></pre><p><em>效果是：</em></p>
+<blockquote>
+<p><em>斜体</em><br><strong>粗体</strong><br><strong><em>粗斜体</em></strong></p>
+</blockquote>
+</li>
+<li><p>###序列</p>
+<pre><code>有序序列：
+1.内容
+2.
+3.
+
+无序序列：
+- 内容
+- 
+- 
+或
+* 内容
+* 
+*
+</code></pre></li>
+<li><p>###引用</p>
+<pre><code>        &gt;引用内容
+*效果是：*
+&gt; &gt;引用内容
+</code></pre></li>
+<li><h2 id="分隔"><a href="#分隔" class="headerlink" title="###分隔"></a>###分隔</h2><pre><code>        ================
+        ****************
+        任意一种符号；符号的数量大于两个。
+*效果是：*
+&gt; ------------------
+</code></pre></li>
+<li><p>###代码段</p>
+<pre><code>按tab键
+或
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">*效果是：*  </span><br><span class="line">&gt;```代码段</span><br></pre></td></tr></table></figure>
+</code></pre></li>
+</ul>
+<ul>
+<li><p>###删除</p>
+<pre><code>        ~~删除内容~~
+*效果是：*
+&gt;~~删除内容~~
+</code></pre></li>
+<li><p>###链接和邮件</p>
+<pre><code>&lt;邮箱地址&gt;
+        &lt;example@gmail.com&gt;
+&lt;网址&gt;
+        &lt;https://kaapomarcus.github.io/&gt;
+[说明](网址)
+        [豆瓣](www.douban.com)
+[说明][序号]
+[序号]: 网址 （此句可在文档任意位置）
+        [博客][1]
+</code></pre></li>
+</ul>
+<pre><code>                    [1]: https://kaapomarcus.github.io/
+    *效果是：*
+    &gt;&lt;example@gmail.com&gt;  
+    &gt;&lt;https://kaapomarcus.github.io/&gt;  
+    &gt;[博客](https://kaapomarcus.github.io/)  
+&gt;[博客][1]
+</code></pre><ul>
+<li>###图片<pre><code>![说明]（网址)
+        ![济南](http://img5.douban.com/view/photo/photo/public/p2181560267.jpg)
+![说明][序号]
+</code></pre></li>
+</ul>
+<pre><code>    [序号]: 网址 (此句可在文档任意位置)
+*效果是：*
+&gt;![济南](http://img5.douban.com/view/photo/photo/public/p2181560267.jpg)
+</code></pre><ul>
+<li><p>###表格</p>
+<pre><code>        |标……题|标……题|标……题|
+        |:---|:---:|----:|
+    |左对齐|居中|右对齐|    
+    “：”的位置控制对齐方式
+
+*效果是：*
+&gt;
+|标……题|标……题|标……题|
+|:---|:---:|----:|
+</code></pre><p>  |左对齐|居中|右对齐|    </p>
+</li>
+<li><p>###脚注</p>
+<pre><code>        内容[^序号]
+        [^序号]：解释
+*效果是：*
+&gt;内容[^1]
+</code></pre></li>
+</ul>
+<ul>
+<li>###输入原符号<pre><code>        由于markdown使用了一些符号作为标记符，所以如想输入原符号，需在前面加一个“\”
+*效果是：*
+&gt; \* \#
+</code></pre></li>
+</ul>
+
           
         
       
